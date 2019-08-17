@@ -12,8 +12,11 @@
 		05FBDA772301A9BE00711047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FBDA752301A9BE00711047 /* Main.storyboard */; };
 		05FBDA792301A9BF00711047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FBDA782301A9BF00711047 /* Assets.xcassets */; };
 		05FBDA7C2301A9BF00711047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05FBDA7A2301A9BF00711047 /* LaunchScreen.storyboard */; };
-		05FBDA872301A9BF00711047 /* y_reminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBDA862301A9BF00711047 /* y_reminderTests.swift */; };
-		05FBDA922301A9BF00711047 /* y_reminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBDA912301A9BF00711047 /* y_reminderUITests.swift */; };
+		05FBDA872301A9BF00711047 /* ios-monthly-reminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBDA862301A9BF00711047 /* ios-monthly-reminderTests.swift */; };
+		05FBDA922301A9BF00711047 /* ios-monthly-reminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBDA912301A9BF00711047 /* ios-monthly-reminderUITests.swift */; };
+		05FBDAA02301ABB800711047 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBDA9F2301ABB800711047 /* TableViewController.swift */; };
+		05FBDAA12301ABB800711047 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBDA9F2301ABB800711047 /* TableViewController.swift */; };
+		05FBDAA22301ABB800711047 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FBDA9F2301ABB800711047 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,31 +25,32 @@
 			containerPortal = 05FBDA662301A9BE00711047 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 05FBDA6D2301A9BE00711047;
-			remoteInfo = "y-reminder";
+			remoteInfo = "ios-monthly-reminder";
 		};
 		05FBDA8E2301A9BF00711047 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 05FBDA662301A9BE00711047 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 05FBDA6D2301A9BE00711047;
-			remoteInfo = "y-reminder";
+			remoteInfo = "ios-monthly-reminder";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05FBDA6E2301A9BE00711047 /* y-reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "y-reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FBDA6E2301A9BE00711047 /* ios-monthly-reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-monthly-reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05FBDA712301A9BE00711047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05FBDA732301A9BE00711047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		05FBDA762301A9BE00711047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		05FBDA782301A9BF00711047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05FBDA7B2301A9BF00711047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05FBDA7D2301A9BF00711047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05FBDA822301A9BF00711047 /* y-reminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "y-reminderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05FBDA862301A9BF00711047 /* y_reminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = y_reminderTests.swift; sourceTree = "<group>"; };
+		05FBDA822301A9BF00711047 /* ios-monthly-reminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-monthly-reminderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FBDA862301A9BF00711047 /* ios-monthly-reminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ios-monthly-reminderTests.swift"; sourceTree = "<group>"; };
 		05FBDA882301A9BF00711047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05FBDA8D2301A9BF00711047 /* y-reminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "y-reminderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05FBDA912301A9BF00711047 /* y_reminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = y_reminderUITests.swift; sourceTree = "<group>"; };
+		05FBDA8D2301A9BF00711047 /* ios-monthly-reminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-monthly-reminderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FBDA912301A9BF00711047 /* ios-monthly-reminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ios-monthly-reminderUITests.swift"; sourceTree = "<group>"; };
 		05FBDA932301A9BF00711047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05FBDA9F2301ABB800711047 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,9 @@
 		05FBDA652301A9BE00711047 = {
 			isa = PBXGroup;
 			children = (
-				05FBDA702301A9BE00711047 /* y-reminder */,
-				05FBDA852301A9BF00711047 /* y-reminderTests */,
-				05FBDA902301A9BF00711047 /* y-reminderUITests */,
+				05FBDA702301A9BE00711047 /* ios-monthly-reminder */,
+				05FBDA852301A9BF00711047 /* ios-monthly-reminderTests */,
+				05FBDA902301A9BF00711047 /* ios-monthly-reminderUITests */,
 				05FBDA6F2301A9BE00711047 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,50 +91,51 @@
 		05FBDA6F2301A9BE00711047 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				05FBDA6E2301A9BE00711047 /* y-reminder.app */,
-				05FBDA822301A9BF00711047 /* y-reminderTests.xctest */,
-				05FBDA8D2301A9BF00711047 /* y-reminderUITests.xctest */,
+				05FBDA6E2301A9BE00711047 /* ios-monthly-reminder.app */,
+				05FBDA822301A9BF00711047 /* ios-monthly-reminderTests.xctest */,
+				05FBDA8D2301A9BF00711047 /* ios-monthly-reminderUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		05FBDA702301A9BE00711047 /* y-reminder */ = {
+		05FBDA702301A9BE00711047 /* ios-monthly-reminder */ = {
 			isa = PBXGroup;
 			children = (
 				05FBDA712301A9BE00711047 /* AppDelegate.swift */,
 				05FBDA732301A9BE00711047 /* ViewController.swift */,
+				05FBDA9F2301ABB800711047 /* TableViewController.swift */,
 				05FBDA752301A9BE00711047 /* Main.storyboard */,
 				05FBDA782301A9BF00711047 /* Assets.xcassets */,
 				05FBDA7A2301A9BF00711047 /* LaunchScreen.storyboard */,
 				05FBDA7D2301A9BF00711047 /* Info.plist */,
 			);
-			path = "y-reminder";
+			path = "ios-monthly-reminder";
 			sourceTree = "<group>";
 		};
-		05FBDA852301A9BF00711047 /* y-reminderTests */ = {
+		05FBDA852301A9BF00711047 /* ios-monthly-reminderTests */ = {
 			isa = PBXGroup;
 			children = (
-				05FBDA862301A9BF00711047 /* y_reminderTests.swift */,
+				05FBDA862301A9BF00711047 /* ios-monthly-reminderTests.swift */,
 				05FBDA882301A9BF00711047 /* Info.plist */,
 			);
-			path = "y-reminderTests";
+			path = "ios-monthly-reminderTests";
 			sourceTree = "<group>";
 		};
-		05FBDA902301A9BF00711047 /* y-reminderUITests */ = {
+		05FBDA902301A9BF00711047 /* ios-monthly-reminderUITests */ = {
 			isa = PBXGroup;
 			children = (
-				05FBDA912301A9BF00711047 /* y_reminderUITests.swift */,
+				05FBDA912301A9BF00711047 /* ios-monthly-reminderUITests.swift */,
 				05FBDA932301A9BF00711047 /* Info.plist */,
 			);
-			path = "y-reminderUITests";
+			path = "ios-monthly-reminderUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05FBDA6D2301A9BE00711047 /* y-reminder */ = {
+		05FBDA6D2301A9BE00711047 /* ios-monthly-reminder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05FBDA962301A9BF00711047 /* Build configuration list for PBXNativeTarget "y-reminder" */;
+			buildConfigurationList = 05FBDA962301A9BF00711047 /* Build configuration list for PBXNativeTarget "ios-monthly-reminder" */;
 			buildPhases = (
 				05FBDA6A2301A9BE00711047 /* Sources */,
 				05FBDA6B2301A9BE00711047 /* Frameworks */,
@@ -140,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = "y-reminder";
-			productName = "y-reminder";
-			productReference = 05FBDA6E2301A9BE00711047 /* y-reminder.app */;
+			name = "ios-monthly-reminder";
+			productName = "ios-monthly-reminder";
+			productReference = 05FBDA6E2301A9BE00711047 /* ios-monthly-reminder.app */;
 			productType = "com.apple.product-type.application";
 		};
-		05FBDA812301A9BF00711047 /* y-reminderTests */ = {
+		05FBDA812301A9BF00711047 /* ios-monthly-reminderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05FBDA992301A9BF00711047 /* Build configuration list for PBXNativeTarget "y-reminderTests" */;
+			buildConfigurationList = 05FBDA992301A9BF00711047 /* Build configuration list for PBXNativeTarget "ios-monthly-reminderTests" */;
 			buildPhases = (
 				05FBDA7E2301A9BF00711047 /* Sources */,
 				05FBDA7F2301A9BF00711047 /* Frameworks */,
@@ -158,14 +163,14 @@
 			dependencies = (
 				05FBDA842301A9BF00711047 /* PBXTargetDependency */,
 			);
-			name = "y-reminderTests";
-			productName = "y-reminderTests";
-			productReference = 05FBDA822301A9BF00711047 /* y-reminderTests.xctest */;
+			name = "ios-monthly-reminderTests";
+			productName = "ios-monthly-reminderTests";
+			productReference = 05FBDA822301A9BF00711047 /* ios-monthly-reminderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		05FBDA8C2301A9BF00711047 /* y-reminderUITests */ = {
+		05FBDA8C2301A9BF00711047 /* ios-monthly-reminderUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05FBDA9C2301A9BF00711047 /* Build configuration list for PBXNativeTarget "y-reminderUITests" */;
+			buildConfigurationList = 05FBDA9C2301A9BF00711047 /* Build configuration list for PBXNativeTarget "ios-monthly-reminderUITests" */;
 			buildPhases = (
 				05FBDA892301A9BF00711047 /* Sources */,
 				05FBDA8A2301A9BF00711047 /* Frameworks */,
@@ -176,9 +181,9 @@
 			dependencies = (
 				05FBDA8F2301A9BF00711047 /* PBXTargetDependency */,
 			);
-			name = "y-reminderUITests";
-			productName = "y-reminderUITests";
-			productReference = 05FBDA8D2301A9BF00711047 /* y-reminderUITests.xctest */;
+			name = "ios-monthly-reminderUITests";
+			productName = "ios-monthly-reminderUITests";
+			productReference = 05FBDA8D2301A9BF00711047 /* ios-monthly-reminderUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 05FBDA692301A9BE00711047 /* Build configuration list for PBXProject "y-reminder" */;
+			buildConfigurationList = 05FBDA692301A9BE00711047 /* Build configuration list for PBXProject "ios-monthly-reminder" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				05FBDA6D2301A9BE00711047 /* y-reminder */,
-				05FBDA812301A9BF00711047 /* y-reminderTests */,
-				05FBDA8C2301A9BF00711047 /* y-reminderUITests */,
+				05FBDA6D2301A9BE00711047 /* ios-monthly-reminder */,
+				05FBDA812301A9BF00711047 /* ios-monthly-reminderTests */,
+				05FBDA8C2301A9BF00711047 /* ios-monthly-reminderUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05FBDA742301A9BE00711047 /* ViewController.swift in Sources */,
+				05FBDAA02301ABB800711047 /* TableViewController.swift in Sources */,
 				05FBDA722301A9BE00711047 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05FBDA872301A9BF00711047 /* y_reminderTests.swift in Sources */,
+				05FBDA872301A9BF00711047 /* ios-monthly-reminderTests.swift in Sources */,
+				05FBDAA12301ABB800711047 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05FBDA922301A9BF00711047 /* y_reminderUITests.swift in Sources */,
+				05FBDA922301A9BF00711047 /* ios-monthly-reminderUITests.swift in Sources */,
+				05FBDAA22301ABB800711047 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		05FBDA842301A9BF00711047 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 05FBDA6D2301A9BE00711047 /* y-reminder */;
+			target = 05FBDA6D2301A9BE00711047 /* ios-monthly-reminder */;
 			targetProxy = 05FBDA832301A9BF00711047 /* PBXContainerItemProxy */;
 		};
 		05FBDA8F2301A9BF00711047 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 05FBDA6D2301A9BE00711047 /* y-reminder */;
+			target = 05FBDA6D2301A9BE00711047 /* ios-monthly-reminder */;
 			targetProxy = 05FBDA8E2301A9BF00711047 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -433,15 +441,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "y-reminder/Info.plist";
+				DEVELOPMENT_TEAM = NHR8N852HA;
+				INFOPLIST_FILE = "ios-monthly-reminder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yama-lc.y-reminder";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yama-lc.ios-monthly-reminder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,15 +460,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "y-reminder/Info.plist";
+				DEVELOPMENT_TEAM = NHR8N852HA;
+				INFOPLIST_FILE = "ios-monthly-reminder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yama-lc.y-reminder";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yama-lc.ios-monthly-reminder";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -468,17 +480,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "y-reminderTests/Info.plist";
+				INFOPLIST_FILE = "ios-monthly-reminderTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yama-lc.y-reminderTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yama-lc.ios-monthly-reminderTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/y-reminder.app/y-reminder";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-monthly-reminder.app/ios-monthly-reminder";
 			};
 			name = Debug;
 		};
@@ -488,17 +500,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "y-reminderTests/Info.plist";
+				INFOPLIST_FILE = "ios-monthly-reminderTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yama-lc.y-reminderTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yama-lc.ios-monthly-reminderTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/y-reminder.app/y-reminder";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-monthly-reminder.app/ios-monthly-reminder";
 			};
 			name = Release;
 		};
@@ -507,17 +519,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "y-reminderUITests/Info.plist";
+				INFOPLIST_FILE = "ios-monthly-reminderUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yama-lc.y-reminderUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yama-lc.ios-monthly-reminderUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "y-reminder";
+				TEST_TARGET_NAME = "ios-monthly-reminder";
 			};
 			name = Debug;
 		};
@@ -526,24 +538,24 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "y-reminderUITests/Info.plist";
+				INFOPLIST_FILE = "ios-monthly-reminderUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.yama-lc.y-reminderUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yama-lc.ios-monthly-reminderUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "y-reminder";
+				TEST_TARGET_NAME = "ios-monthly-reminder";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05FBDA692301A9BE00711047 /* Build configuration list for PBXProject "y-reminder" */ = {
+		05FBDA692301A9BE00711047 /* Build configuration list for PBXProject "ios-monthly-reminder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05FBDA942301A9BF00711047 /* Debug */,
@@ -552,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05FBDA962301A9BF00711047 /* Build configuration list for PBXNativeTarget "y-reminder" */ = {
+		05FBDA962301A9BF00711047 /* Build configuration list for PBXNativeTarget "ios-monthly-reminder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05FBDA972301A9BF00711047 /* Debug */,
@@ -561,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05FBDA992301A9BF00711047 /* Build configuration list for PBXNativeTarget "y-reminderTests" */ = {
+		05FBDA992301A9BF00711047 /* Build configuration list for PBXNativeTarget "ios-monthly-reminderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05FBDA9A2301A9BF00711047 /* Debug */,
@@ -570,7 +582,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		05FBDA9C2301A9BF00711047 /* Build configuration list for PBXNativeTarget "y-reminderUITests" */ = {
+		05FBDA9C2301A9BF00711047 /* Build configuration list for PBXNativeTarget "ios-monthly-reminderUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				05FBDA9D2301A9BF00711047 /* Debug */,

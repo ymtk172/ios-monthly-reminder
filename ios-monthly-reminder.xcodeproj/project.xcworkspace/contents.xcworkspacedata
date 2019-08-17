@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:y-reminder.xcodeproj">
+      location = "self:/Users/yamato/code/ios-monthly-reminder/ios-monthly-reminder.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,16 +1,16 @@
 //
-//  y_reminderTests.swift
-//  y-reminderTests
+//  ios-monthly-reminderTests.swift
+//  ios-monthly-reminderTests
 //
 //  Created by 大和啓一 on 2019/08/12.
 //  Copyright © 2019 yama172. All rights reserved.
 //
 
 import XCTest
-@testable import y_reminder
+@testable import ios-monthly-reminder
 
-class y_reminderTests: XCTestCase {
-
+class ios-monthly-reminderTests: XCTestCase {
+/*
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -30,5 +30,5 @@ class y_reminderTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
+*/
 }
